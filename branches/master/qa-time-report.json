@@ -1,0 +1,374 @@
+{
+  "date" : "Mon, 20 May, 2024 18:17:34 +0000",
+  "doco" : "For each file: start is seconds after start activity occurred. Length = milliseconds activity took",
+  "files" : [
+    {
+      "name" : "/fsh-generated/resources/ImplementationGuide-location.json",
+      "size" : 3369,
+      "processes" : [
+        {
+          "activity" : "load",
+          "start" : 42,
+          "length" : 23
+        },
+        {
+          "activity" : "checkR4R4B",
+          "start" : 42,
+          "length" : 6
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 42,
+          "length" : 60
+        },
+        {
+          "activity" : "validate",
+          "start" : 45,
+          "length" : 321
+        },
+        {
+          "activity" : "generate1",
+          "start" : 46,
+          "length" : 83
+        },
+        {
+          "activity" : "generate2",
+          "start" : 48,
+          "length" : 52
+        },
+        {
+          "activity" : "generateExampleZip",
+          "start" : 57,
+          "length" : 1
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 57,
+          "length" : 3
+        },
+        {
+          "activity" : "scanExamplesForR5",
+          "start" : 59,
+          "length" : 1
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/Location-Country1.json",
+      "size" : 208,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 41,
+          "length" : 15
+        },
+        {
+          "activity" : "load-configure",
+          "start" : 41,
+          "length" : 1
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 42,
+          "length" : 31
+        },
+        {
+          "activity" : "validate",
+          "start" : 46,
+          "length" : 3
+        },
+        {
+          "activity" : "generate1",
+          "start" : 46,
+          "length" : 10
+        },
+        {
+          "activity" : "generate2",
+          "start" : 48,
+          "length" : 12
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/Location-Province1.json",
+      "size" : 627,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 41,
+          "length" : 11
+        },
+        {
+          "activity" : "load",
+          "start" : 41,
+          "length" : 1
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 42,
+          "length" : 81
+        },
+        {
+          "activity" : "validate",
+          "start" : 46,
+          "length" : 11
+        },
+        {
+          "activity" : "generate1",
+          "start" : 46,
+          "length" : 12
+        },
+        {
+          "activity" : "generate2",
+          "start" : 48,
+          "length" : 10
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/SearchParameter-SP-related-location-type.json",
+      "size" : 551,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 41,
+          "length" : 10
+        },
+        {
+          "activity" : "loadDepInfo",
+          "start" : 41,
+          "length" : 1
+        },
+        {
+          "activity" : "load",
+          "start" : 42,
+          "length" : 15
+        },
+        {
+          "activity" : "load",
+          "start" : 42,
+          "length" : 35
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 42,
+          "length" : 18
+        },
+        {
+          "activity" : "validate",
+          "start" : 45,
+          "length" : 14
+        },
+        {
+          "activity" : "generate1",
+          "start" : 46,
+          "length" : 13
+        },
+        {
+          "activity" : "generate2",
+          "start" : 48,
+          "length" : 10
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 57,
+          "length" : 1
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/StructureDefinition-LocationGraphNode.json",
+      "size" : 2338,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 41,
+          "length" : 14
+        },
+        {
+          "activity" : "load-configure",
+          "start" : 41,
+          "length" : 1
+        },
+        {
+          "activity" : "load",
+          "start" : 41,
+          "length" : 12
+        },
+        {
+          "activity" : "generateSnapshots",
+          "start" : 42,
+          "length" : 15
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 42,
+          "length" : 45
+        },
+        {
+          "activity" : "validate",
+          "start" : 45,
+          "length" : 214
+        },
+        {
+          "activity" : "generate1",
+          "start" : 46,
+          "length" : 76
+        },
+        {
+          "activity" : "generate2",
+          "start" : 48,
+          "length" : 993
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 57,
+          "length" : 2
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/StructureDefinition-location-with-complex-extension.json",
+      "size" : 1364,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 41,
+          "length" : 15
+        },
+        {
+          "activity" : "load",
+          "start" : 41,
+          "length" : 9
+        },
+        {
+          "activity" : "generateSnapshots",
+          "start" : 42,
+          "length" : 70
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 42,
+          "length" : 66
+        },
+        {
+          "activity" : "validate",
+          "start" : 45,
+          "length" : 384
+        },
+        {
+          "activity" : "scanForUsageStats",
+          "start" : 46,
+          "length" : 2
+        },
+        {
+          "activity" : "generate1",
+          "start" : 46,
+          "length" : 180
+        },
+        {
+          "activity" : "generate2",
+          "start" : 49,
+          "length" : 651
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 57,
+          "length" : 15
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/StructureDefinition-related-location.json",
+      "size" : 3147,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 41,
+          "length" : 11
+        },
+        {
+          "activity" : "load",
+          "start" : 41,
+          "length" : 11
+        },
+        {
+          "activity" : "generateSnapshots",
+          "start" : 42,
+          "length" : 26
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 42,
+          "length" : 38
+        },
+        {
+          "activity" : "validate",
+          "start" : 45,
+          "length" : 119
+        },
+        {
+          "activity" : "generate1",
+          "start" : 46,
+          "length" : 123
+        },
+        {
+          "activity" : "generate2",
+          "start" : 49,
+          "length" : 237
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 57,
+          "length" : 8
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/ValueSet-vs-relationships.json",
+      "size" : 271,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 41,
+          "length" : 10
+        },
+        {
+          "activity" : "load",
+          "start" : 41,
+          "length" : 13
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 42,
+          "length" : 82
+        },
+        {
+          "activity" : "validate",
+          "start" : 42,
+          "length" : 2414
+        },
+        {
+          "activity" : "generate1",
+          "start" : 46,
+          "length" : 9
+        },
+        {
+          "activity" : "generate2",
+          "start" : 50,
+          "length" : 3533
+        },
+        {
+          "activity" : "generateExampleZip",
+          "start" : 57,
+          "length" : 1
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 57,
+          "length" : 1
+        }
+      ]
+    }
+  ]
+}

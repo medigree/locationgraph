@@ -1,0 +1,49 @@
+{
+  "resourceType" : "Bundle",
+  "id" : "d5d8f401-f875-4297-914b-c48e73b0c219",
+  "meta" : {
+    "lastUpdated" : "2024-05-20T18:17:34.066+00:00"
+  },
+  "type" : "collection",
+  "entry" : [{
+    "fullUrl" : "http://example.com/fhir/example/ValueSet/vs-relationships",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains0 concepts.</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr></table></div>"
+      },
+      "url" : "http://example.com/fhir/example/ValueSet/vs-relationships",
+      "version" : "1.0.0",
+      "name" : "VSRelationships",
+      "title" : "Relationship Types",
+      "status" : "active",
+      "date" : "2024-05-20T18:17:34+00:00",
+      "jurisdiction" : [{
+        "coding" : [{
+          "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+          "code" : "001",
+          "display" : "World"
+        }]
+      }],
+      "expansion" : {
+        "identifier" : "urn:uuid:031950a2-6024-473a-911c-8131aaa945d5",
+        "timestamp" : "2024-05-20T18:17:45+00:00",
+        "total" : 0,
+        "offset" : 0,
+        "parameter" : [{
+          "name" : "count",
+          "valueInteger" : 1000
+        },
+        {
+          "name" : "offset",
+          "valueInteger" : 0
+        },
+        {
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        }]
+      }
+    }
+  }]
+}

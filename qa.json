@@ -1,0 +1,20 @@
+{
+  "url" : "http://example.com/fhir/example",
+  "name" : "Location",
+  "title" : "Location Graph",
+  "description" : "FHIR IG for Location Graph.",
+  "ig-date" : "2020-02-26",
+  "status" : "active",
+  "package-id" : "location",
+  "ig-ver" : "1.0.0",
+  "date" : "Mon, 20 May, 2024 18:17:34 +0000",
+  "dateISO8601" : "2024-05-20T18:17:34+00:00",
+  "errs" : 4,
+  "warnings" : 10,
+  "hints" : 0,
+  "suppressed-hints" : 0,
+  "suppressed-warnings" : 0,
+  "version" : "4.0.1",
+  "tool" : "5.0.0 (3)",
+  "maxMemory" : 1460668416
+}

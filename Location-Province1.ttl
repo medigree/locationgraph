@@ -1,0 +1,41 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://example.com/fhir/example/Location/Province1> a fhir:Location ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "Province1"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "http://example.com/fhir/example/StructureDefinition/location-with-complex-extension"^^xsd:anyURI ;
+       fhir:link <http://example.com/fhir/example/StructureDefinition/location-with-complex-extension>
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "extensions" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Location </b><a name=\"Province1\"> </a><a name=\"hcProvince1\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">ResourceLocation &quot;Province1&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-location-with-complex-extension.html\">Location with Complex Extension</a></p></div><blockquote><p><b>Complex Location Extension</b></p><blockquote><p><b>url</b></p><code>relationshipType</code></blockquote><p><b>value</b>: partof (Details: [not stated] code partof  = ' partof , stated as  null ')</p><blockquote><p><b>url</b></p><code>relatedResource</code></blockquote><p><b>value</b>: <a href=\"Location-Country1.html\">Location/Country1</a> &quot;Country 1&quot;</p></blockquote><p><b>name</b>: Province 1</p></div>"
+  ] ; # 
+  fhir:extension ( [
+     fhir:extension ( [
+       fhir:url [ fhir:v "relationshipType"^^xsd:anyURI ] ;
+       fhir:value [
+         a fhir:Coding ;
+         fhir:code [ fhir:v "partof" ]
+       ]
+     ] [
+       fhir:url [ fhir:v "relatedResource"^^xsd:anyURI ] ;
+       fhir:value [
+         a fhir:Reference ;
+         fhir:link <http://example.com/fhir/example/Location/Country1> ;
+         fhir:reference [ fhir:v "Location/Country1" ]
+       ]
+     ] ) ;
+     fhir:url [ fhir:v "http://example.com/fhir/example/StructureDefinition/related-location"^^xsd:anyURI ]
+  ] ) ; # 
+  fhir:name [ fhir:v "Province 1"] . # 
+
+# -------------------------------------------------------------------------------------
+

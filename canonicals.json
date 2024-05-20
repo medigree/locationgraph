@@ -1,0 +1,44 @@
+[
+  {
+    "id" : "location",
+    "type" : "ImplementationGuide",
+    "url" : "http://example.com/fhir/example",
+    "version" : "1.0.0",
+    "name" : "Location"
+  },
+  {
+    "id" : "SP-related-location-type",
+    "type" : "SearchParameter",
+    "url" : "http://example.com/fhir/example/SearchParameter/SP-related-location-type",
+    "version" : "1.0.0",
+    "name" : "related-location-type"
+  },
+  {
+    "id" : "LocationGraphNode",
+    "type" : "StructureDefinition",
+    "url" : "http://example.com/fhir/example/StructureDefinition/LocationGraphNode",
+    "version" : "1.0.0",
+    "name" : "LocationGraphNode"
+  },
+  {
+    "id" : "location-with-complex-extension",
+    "type" : "StructureDefinition",
+    "url" : "http://example.com/fhir/example/StructureDefinition/location-with-complex-extension",
+    "version" : "1.0.0",
+    "name" : "LocationWithComplexExtension"
+  },
+  {
+    "id" : "related-location",
+    "type" : "StructureDefinition",
+    "url" : "http://example.com/fhir/example/StructureDefinition/related-location",
+    "version" : "1.0.0",
+    "name" : "RelatedLocation"
+  },
+  {
+    "id" : "vs-relationships",
+    "type" : "ValueSet",
+    "url" : "http://example.com/fhir/example/ValueSet/vs-relationships",
+    "version" : "1.0.0",
+    "name" : "VSRelationships"
+  }
+]

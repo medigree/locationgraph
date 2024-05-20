@@ -1,0 +1,39 @@
+Location : Validation Results
+=========================================
+
+err = 4, warn = 10, info = 0
+$--
+Generated $--. FHIR version $-- for location#$-- (canonical = http://example.com/fhir/example)
+ Build Errors : 0 / 7 / 0
+ /github/workspace/fsh-generated/resources/ImplementationGuide-location : 3 / 0 / 1
+ /github/workspace/fsh-generated/resources/Location-Country1 : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/Location-Province1 : 0 / 1 / 1
+ /github/workspace/fsh-generated/resources/SearchParameter-SP-related-location-type : 1 / 1 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-LocationGraphNode : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-location-with-complex-extension : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-related-location : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/ValueSet-vs-relationships : 0 / 1 / 1
+</table>
+== n/a ==
+WARNING: ImplementationGuide.url: The canonical URL for an Implementation Guide must point directly to the implementation guide resource, not to the Implementation Guide as a whole
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Location/Country1.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Location/Province1.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: 1: The HTML fragment 'ip-statements.xhtml' is not included anywhere in the produced implementation guide
+WARNING: 2: An HTML fragment from the set [cross-version-analysis.xhtml, cross-version-analysis-inline.xhtml] is not included anywhere in the produced implementation guide
+WARNING: 3: An HTML fragment from the set [dependency-table.xhtml, dependency-table-short.xhtml] is not included anywhere in the produced implementation guide
+WARNING: 4: The HTML fragment 'globals-table.xhtml' is not included anywhere in the produced implementation guide
+== fsh-generated/resources/ImplementationGuide-location.json ==
+ERROR: ImplementationGuide.where(url = 'http://example.com/fhir/example'): Conformance resource /github/workspace/fsh-generated/resources/ImplementationGuide-location.json - the canonical URL (http://example.com/fhir/example/ImplementationGuide/location) does not match the URL (http://example.com/fhir/example)
+ERROR: ImplementationGuide.url: Resource id/url mismatch: location/http://example.com/fhir/example
+ERROR: /github/workspace/fsh-generated/resources/ImplementationGuide-location: URL Mismatch http://example.com/fhir/example/ImplementationGuide/location vs http://example.com/fhir/example
+== fsh-generated/resources/Location-Country1.json ==
+== fsh-generated/resources/Location-Province1.json ==
+WARNING: Location/Province1: Location.extension[0].extension[0].value.ofType(Coding): A code with no system has no defined meaning, and it cannot be validated. A system should be provided
+== fsh-generated/resources/SearchParameter-SP-related-location-type.json ==
+WARNING: SearchParameter/SP-related-location-type: SearchParameter: Constraint failed: spd-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation'
+ERROR: SearchParameter/SP-related-location-type: SearchParameter.expression: Error in search expression 'Location.extension.where(url='http://example.com/fhir/example/StructureDefinition/related-location').extension.where(url='relationshipType').valueCoding': Error evaluating FHIRPath expression: The name 'Location' is not valid for any of the possible types: [http://hl7.org/fhir/StructureDefinition/Bundle] (@char 1)
+== fsh-generated/resources/StructureDefinition-LocationGraphNode.json ==
+== fsh-generated/resources/StructureDefinition-location-with-complex-extension.json ==
+== fsh-generated/resources/StructureDefinition-related-location.json ==
+== fsh-generated/resources/ValueSet-vs-relationships.json ==
+WARNING: ValueSet/vs-relationships: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present

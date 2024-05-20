@@ -1,0 +1,2 @@
+URL,Version,Status,OIDs,Name,Title,Descriptino,Uses,Used,Sources
+http://example.com/fhir/example/ValueSet/vs-relationships,1.0.0,active,,VSRelationships,Relationship Types,"A value set for relationship types.","StructureDefinition/related-location",
