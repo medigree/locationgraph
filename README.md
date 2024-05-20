@@ -1,6 +1,6 @@
 Empty IG
 ---
-This is an empty IG
+Location Graph
 <br> </br>
 ###
 ### Publication
