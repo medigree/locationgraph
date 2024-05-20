@@ -2,14 +2,27 @@
 
   /* see http://build.fhir.org/ig/FHIR/ig-guidance/colors.html */
 
-  --ig-status-text-color: #333333; /* 1. IG Title and status text color */
-  --navbar-bg-color: #1f4d2e; /* 2. Header container color */
-  --footer-container-bg-color: #1f4d2e; /* 4. Footer container color */
-  --stripe-bg-color: #668877; /* 5. Header strip color */
 
-  --btn-hover-color: #33804a;  /* 6. Menu button hover color */
+  --ig-status-text-color: #ffffff;
+  /* 1. IG Title and status text color */
+  --navbar-bg-color: #007d47;
+  /* 2. Header container color */
+  --footer-bg-color: #505050;
+  /* 3. Footer background color*/
+  --footer-container-bg-color: #90AB50;
+  /* 4. Footer container color */
+  --btn-hover-color: #0070A1;
+  /* 6. Menu button hover color */
+  --ig-header-color: #90AB50;
+  --toc-box-border: navy;
+  --toc-box-bg-color: #f6f7f9;
+  --navbar-bg-color: #85A645; /* 2. Header container color */
+  --ig-header-container-color: #90AB50; /* 22. Header container color (center) */
+
+  --stripe-bg-color: #576c25; /* 5. Header strip color */
+
   --btn-active-color: #43a862; /* 7. Menu button active color */
-  --btn-text-color: #e6e6e6; /* 8. Menu button text color */
+  --btn-text-color: #fefefe; /* 8. Menu button text color */
   --btn-gradient-start-color: #33aa77; /* 9. Menu item gradient start color */
   --btn-gradient-end-color: #209966; /* 10. Menu item gradient end  color */
   --btn-gradient-start-color-alpha: #ff33aa77; /* 11. Menu item gradient start color (with alpha) */
@@ -20,17 +33,11 @@
   --publish-box-bg-color: yellow; /* 15. Publish box background color */
   --publish-box-border: 1px solid green; /* 16.  Publish box border definition */
 
-  --toc-box-bg-color: #ffeb7e; /* 17.  TOC box background color */
-  --toc-box-border: 1px solid green; /* 18. TOC box border definition */
-
   --stu-note-background-color: #fff2ff; /* 19. (STU) Note box background color */
   --stu-note-border-left-color: #ff6020; /* 20. (STU) Note box border color */
 
-  --ig-header-color: #f5f5f5; /* 21. Header color (sides) */
-  --ig-header-container-color: #ffffff; /* 22. Header container color (center) */
   --footer-nav-bg-color: #f5f5f5; /* 23. Footer navigation background color*/
 
-  --footer-bg-color: #666e68; /* 3. Footer background color*/
   --footer-text-color: #ffffff; /* 24. Footer highlight font color */
   --footer-hyperlink-text-color: #81BEF7; /* 25. Footer hyperlinks font color */
   --footer-highlight-text-color: #ffff77; /* 26. Footer highlight font color */
